@@ -10,5 +10,10 @@ module.exports = {
         type: 'test'
       });
     }
+
+    app.import('vendor/ember-cli-mock-socket/shim.js', {
+      type: 'vendor',
+      exports: { 'mock-socket': ['default'] }
+    });
   }
 };
