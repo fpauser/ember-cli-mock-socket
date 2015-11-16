@@ -8,4 +8,8 @@ Wrapper around https://github.com/thoov/mock-socket for ember-cli.
 
 ## Usage
 
-- ES6: ```import MockServer from 'mock-socket'```
+ES6:
+```js
+import MockServer from 'mock-socket/server';
+import MockSocket from 'mock-socket/websocket';
+```
